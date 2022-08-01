@@ -109,3 +109,9 @@ p {
     font-size: 48px;
   }
 }
+
+@media (max-width: 576px) {
+  p {
+    text-align: center;
+  }
+}
