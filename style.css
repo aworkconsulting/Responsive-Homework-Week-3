@@ -17,7 +17,7 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 66px;
 }
 
 h2 {
@@ -98,4 +98,14 @@ p {
   background: var(--primary-color);
   box-shadow: var(box-shadow);
   color: white;
+}
+@media (max-width: 576px) {
+  h2 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+  }
 }
